@@ -1,0 +1,59 @@
+@import "colours";
+
+.section-3{
+    background: $grey;
+    padding-bottom: 50px;
+
+    &__topic-text{
+        text-align: center;
+        padding: 5rem 0 4rem 0;
+    }
+
+    &__small-text{
+        color: $dark-grey;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    &__black-text{
+        color: $black;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__card-section{
+        // text-align: center;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        align-content: space-evenly;
+        margin-bottom: 8px;
+    }
+
+    &__white-section{
+        border-radius: 6px;
+        margin: 0 10px;
+        padding: 10px 5px ;
+        background: $white;
+        text-align: center;
+
+        h3{
+            color: $pink;
+        }
+    }
+
+    &__t1{
+        font-weight: 600;
+    }
+    &__t2{
+        margin: 20px;
+    }
+
+    &__card-view-more{
+        a{
+            color: $black;
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+@import 'colours';
+
+.section-4{
+    padding-bottom: 50px;
+
+    &__topic-text1{
+        text-align: center;
+        padding: 5rem 0 4rem 0;
+    }
+
+    &__text1{
+        color: $dark-grey;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    &__text2{
+        color: $black;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+     
+    &__masonary-part__main{
+        padding: 6px;
+
+        &__img{
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        &__white-trns{
+            bottom: 10px;
+            position: absolute;
+            background: aqua;
+        }
+    }
+
+    // img {
+    //     max-width: 100%;
+    //     display: block;
+    //   }
+    // &__masonary-part{
+        
+    // }
+
+}
